@@ -21,16 +21,15 @@ function App() {
   return (
     <>
     {/* Search bar */}
-      <div className="w-screen flex items-center justify-center h-20 bg-slate-400 fixed inset-0 z-50">
+      <div className="w-screen flex items-center justify-center h-20 bg-slate-600 fixed inset-0 z-50">
         <input
         type="search"
         name="search"
         id=""
-        placeholder="Search..."
-        className="w-1/4 outline-none border border-r-0 border-slate-300 h-10 p-4 bg-white rounded-lg rounded-r-none"
+        placeholder="Type to start searching..."
+        className="w-1/4 outline-none border border-r-0 border-slate-300 h-10 p-4 bg-white rounded-lg"
         onChange={(e) => setTerm(e.target.value)} />
 
-        <i className="fa fa-search border border-l-0 border-slate-300 h-10 leading-10 pr-4 bg-white rounded-lg rounded-l-none"></i>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded p-2 ml-5 ">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">I'm feeling lucky!</a>
         </button>
